@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio';
 
 function App() {
   const { data } = useData();
-  const brandName = data.about?.brandName || 'Swaraj Vecha';
+  const brandName = data.about?.brandName || 'portfolio';
 
   useEffect(() => {
     document.title = `${brandName} - Portfolio`;
